@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Inter:wght@500&family=Lobster&family=Montserrat:wght@500&family=Roboto&display=swap');
+
+  /*! fazer efeitos na pagina */
+*{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #0F9AFE;
+    --text-color: #293145;
+    --paragrafo-color:#6E7275;
+    --font-primari: font-family: 'Roboto', sans-serif; 
+    --back-btn-app: #293145;
+    --back-segundario: aliceblue;
+}
+
+body{
+    width: 100%;
+}
+.background{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.background2{
+    background-color: var(--back-btn-app);
+}
+
+.background3{
+    background-image: url(https://ustamnakliyat.com/wp-content/uploads/2022/11/contato.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.back-card{
+    background-color: var(--back-segundario);
+}
+.efeitoBack{
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+.efeito{
+    transition: all .4s;
+}
+
+.efeito2{
+    transition: all .4s;
+}
+
+.inputSet{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: 0;
+    width: 300px;
+    font-family: 'Roboto', Courier, monospace;
+}
+
+.inputSet::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.efeito2:hover{
+  background-color: var(--back-btn-app);
+  color: white;
+  cursor: pointer;
+}
+.efeito:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 490px) {
+    .Media{
+        margin-top:  5rem;
+        font-size: 24px;
+    
+    }
+
+    .box-div{
+        display: none;
+    }
+    
+}
+
+.color{
+    color: var(--primary-color);
+    margin-bottom: 16px;
+}
+
+.text-color{
+    font-family: var(--font-primari);
+    color: var(--text-color);
+}
+
+.paragrafo{
+    color: var(--paragrafo-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    border-radius: 10px;
+    border: none;
+    background-color: var(--back-btn-app);
+}

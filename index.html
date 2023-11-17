@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>navbar bootstrap</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md  bg-white shadow-sm fixed-top">
+        <div class="container-fluid" >
+            <a href="index.html" class="navbar-brand px-5"><img  src="img/Group 33553.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse ml-auto justify-content-end  px-5" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item text-capitalize text-dark">
+                        <a href="#funcionalidades" class="nav-link">Funcionalidades</a>
+                    </li>
+                    <li class="nav-item active text-capitalize">
+                        <a href="#app" class="nav-link active" aria-current="page">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#planos" class="nav-link">Planos</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- !feature  -->
+   
+    <section class="py-lg-5 background">
+        <div class="container-fluid align-items-center my-sm-5">
+            <div class="row align-items-center justify-content-center"> <!-- Modificação: alterada classe justify-content para centralizar -->
+                <div class="col-sm-6 px-5 text-lg-start text-sm-center Media"> <!-- Modificação: classe text-center adicionada para centralizar o texto -->
+                    <h1 class="display-4">Rachi, é tudo que você precisa em um só lugar.</h1>
+                    <button class="btn btn-primary rounded my-4">Cadastre-se</button>
+                </div>
+                <div class="col-sm-6 justify-content-center"> <!-- Modificação: classe justify-content alterada para centralizar a imagem -->
+                    <img class="mx-auto d-block img-fluid" src="img/Working from anywhere-rafiki 1.png" alt="poster"> <!-- Adicionadas as classes mx-auto d-block para centralizar a imagem -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="funcionalidades">
+        <div class="container-fluid">
+            <div class="row text-center py-5">
+                <h1 class="display-3">Como funciona</h1>
+            </div>
+
+            <div  class="row align-items-center justify-content-center py-md-5 py-sm-3 gap-4">
+                    <div class="col-sm-3 text-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"  fill="currentColor" class="bi bi-person-add color p" viewBox="0 0 16 16">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                            <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+                          </svg>
+
+                          <h3 class="display-5 text-color">Crie conexões</h3>
+                          <p class="paragrafo text-capitalize text-break">Lorem ipsum dolor sit amet,
+                            consecteteu.</p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"  fill="currentColor" class="bi bi-shield-check color" viewBox="0 0 16 16">
+                            <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                            <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>
+
+                          <h3 class="display-5 text-color">100% gratuito</h3>
+                          <p class="paragrafo text-capitalize">Lorem ipsum dolor sit amet,
+                            consecteteu.</p>
+                    </div>
+
+                    <div class="col-sm-3 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="fi fi-emoji-smile color" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                          </svg>
+
+                          <h3 class="display-5 text-color">Compartilhamento</h3>
+                          <p class="paragrafo text-capitalize">Lorem ipsum dolor sit amet,
+                            consecteteu.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app" class="background">
+        <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-6 py-5 px-5 text-start">
+               
+                <h2 class="display-3 text-color">Baixe nosso app para desfrutar mais!</h2>
+               
+                <p class=" text-break my-3">Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+               
+                <div class="gap-4 my-5 d-inline-flex">
+                    <button class="boton"><img class="img-fluid" src="img/app1.png" alt=""></button>
+                    <button class="boton"><img class="img-fluid" src="img/app2.png" alt=""></button>
+               </div>
+            </div>
+
+            <div class="col-sm-6 align-content-center justify-content-center box-div">
+                <img class="mx-auto d-block img-fluid" src="./img/New notifications-amico 1.png" alt="poster">
+            </div>
+            
+        </div>
+        </div>
+    </section>
+
+    <section id="planos">
+        <div class="container-fluid pb-5">
+            <div class="row text-center py-4">
+                <div class="col-12">
+                <h2 class=" display-3 text-color">Nossos Planos</h2>
+                <p class=" text-sm-break paragrafo/">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-center  gap-3">
+                <div class="col-sm-3"> <!--* cada col desta vale a um card -->
+                    <div class="card back-card justify-content-center text-center efeito2">
+                        <div class="card-body">
+                            <div>
+                                <h2 class="display-3">Bronze</h2>
+                            </div>
+                            <div>
+                                <h1 class="display-4">R$ 28/mês</h1>
+                                <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Assinar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--! fim do card 1 -->
+
+                <div class="col-sm-3">
+                    <div class="card background2 justify-content-center text-center efeito">
+                        <div class="card-body">
+                            <div class="text-white">
+                                <h2 class="display-3 card-title ">Prata</h2>
+                                <button class="btn bg-primary rounded">Preferido</button>
+                                 <h1>R$
+                                    57
+                                    /mês</h1>
+                            </div>
+
+                            <div>
+                                <p class="paragrafo text-break">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                                <button class="btn btn-primary rounded">Assinar</button>
+                            </div>
+
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--! fim do card 2 -->
+                <div class="col-sm-3">
+                    <div class="card back-card justify-content-center text-center efeito2">
+                        <div class="card-body">
+                            <div>
+                                <h2 class="display-3 ">Ouro
+                                    </h2>
+                            </div>
+                            <div>
+                                <h1 class="display-4">R$ 94/mês</h1>
+                                <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">Assinar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+    <section class="background3" id="contato">
+        <div class="container-fluid efeitoBack">
+            <div class="row text-center py-5 text-white">
+                    <h1 >Contato</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+            </div>
+            
+            <!--! Melhorar esta parta pois nao esta responsiva direito -->
+
+            <div class="row justify-content-centers">
+                <div class="col-sm-11 ">
+                    <form action="" class="form  my-5">
+                        <div class="input-group justify-content-center">
+                        <input type="text" class=" inputSet" aria-label="Text input with dropdown button " placeholder="E-mail">
+                        <button class="btn btn-outline-primary " type="button" data-bs-toggle="Enviar" aria-expanded="false">Enviar</button>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 10px;" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between">
+                    <a href="index.html" class="navbar-brand px-5"><img class="img-fluid" src="img/Group 33553.png" alt="logo"></a>
+                    <h4 class="text-color text-break"><a class="nav-link" href="index.html">Rachi - Todos os direitos reservados.</a></h4>
+                    <h4 class="text-break"><a class="nav-link" href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=41733-754&mode=design&t=DYfJ6yAxC0hGm5yv-0">layout do projeto</a></h4>
+                </div>
+              
+            </div>
+        </div>
+        <!--! melhorar a seçao de contato e melhorra este footer -->
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
