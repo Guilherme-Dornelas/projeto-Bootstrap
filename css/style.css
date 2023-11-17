@@ -89,6 +89,10 @@ body{
     .box-div{
         display: none;
     }
+
+    .text-exit{
+        display: none;
+    }
     
 }
 
